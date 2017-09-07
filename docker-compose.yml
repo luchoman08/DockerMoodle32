@@ -1,0 +1,18 @@
+version: "2"
+services:
+  db:
+    image: postgres:9.5 
+    build: dockerPostgres
+    environment:
+            POSTGRES_USER: postgres
+  web:
+    
+    build: dockerHttpd
+    ports:
+      - "80:80"
+    depends_on:
+      - db
+    volumes:
+      - /home/lucho/WebApps/moodle:/var/www/html/moodle
+
+

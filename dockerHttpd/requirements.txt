@@ -1,0 +1,6 @@
+libzip-dev 
+php5-pgsql
+php5-gd
+php5-xmlrpc
+php5-intl
+vim
