@@ -7,7 +7,7 @@ Configuraciones necesarias para iniciar una instancia de docker con moodle 3.2
 Debe tener instalado docker y docker-compose ademas de tener conocimientos minimos sobre 
 estos.
 
-# Dependencias
+# Al final tendra instalado moodle en contenedores con:
 
 Postgres 9.5
 PHP 5.5
