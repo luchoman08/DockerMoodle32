@@ -40,7 +40,7 @@ Por defecto y por razones de seguridad los comandos relacionados con docker solo
 
 En consola, encontandose en el directorio DockerMoodle debe ejecutar como root "docker-compose build web"
 
- Al finalizar (después de en promedio 5 minutos) y si todo va bien podra ejecutar docker-compose up web, y ahora desde el local podra ver su nuevo sitio en localhost/moodle
+ Al finalizar (después de en promedio 5 minutos) y si todo va bien podra ejecutar docker-compose up web, y ahora desde el local podra ver su nuevo sitio en localhost:8080/moodle
  
  # Configurando la coneccion a base de datos
  
