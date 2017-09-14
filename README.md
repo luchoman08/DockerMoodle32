@@ -7,7 +7,7 @@ Configuraciones necesarias para iniciar una instancia de docker con moodle 3.2
 Debe tener instalado docker y docker-compose ademas de tener conocimientos minimos sobre 
 estos.
 
-# Al final tendra instalado moodle en contenedores con:
+# Dependencias
 
 Postgres 9.5
 PHP 5.5
@@ -29,6 +29,12 @@ Ejemplo:
 
 
 Esta es la unica configuración necesaria para poner en marcha el cotenedor.
+
+Debe tener en cuenta que el demonio de docker debe estar ejecutando para que lo presente en este tutorial funcione, tipicamente este se inicia ejecutando el comando dockerd como root
+
+Por defecto y por razones de seguridad los comandos relacionados con docker solo estan accesibles por un usuario root, puede cambiar esto de la siguiente manera:
+  - Cree el grupo docker si no existe (sudo groupadd docker)
+  - Adicione el usuario actual o cualquier usuario a dicho grupo (sudo gpasswd -a $USER docker)
 
 # Construir contenedor.
 
